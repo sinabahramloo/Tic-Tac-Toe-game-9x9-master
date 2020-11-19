@@ -83,9 +83,9 @@ public class Main {
 			System.out.print(board.toString()) ;
 			if (game.isWin()) {
 				if (symbol.getCurrentSymbol() == 'X') {
-					System.out.println("Player'1 win.");
+					System.out.println("Player'X win.");
 				} else {
-					System.out.println("Player'2 win.");
+					System.out.println("Player'O win.");
 				}
 				break;
 			}
